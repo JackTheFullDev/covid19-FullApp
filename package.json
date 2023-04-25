@@ -1,4 +1,5 @@
 {
+  "homepage": "http://JackTheFullDev.github/io/covid19-app",
   "name": "nokia-recruitment",
   "private": true,
   "version": "0.0.0",
@@ -6,13 +7,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/material": "^5.12.1",
     "chart.js": "^4.2.1",
+    "gh-pages": "^5.0.0",
     "primereact": "^9.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
