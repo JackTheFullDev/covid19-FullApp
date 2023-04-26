@@ -17,7 +17,7 @@ function App() {
       <ApiContextProvider>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />}></Route>
+            <Route path="/covid19-FullApp" element={<Home />}></Route>
             <Route path="/Dashbord" element={<DashboardPage />}></Route>
             <Route path="/Table" element={<TablePage />}></Route>
             <Route path="/Chart" element={<ChartPage />}></Route>
